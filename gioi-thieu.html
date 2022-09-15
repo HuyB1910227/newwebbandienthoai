@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="vendor/bootstrap/bootstrap-4.6.0-dist/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+    <link href="vendor/font-awesome-4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet" />
+    <link href="assets/css/thanh-menu.css" type="text/css" rel="stylesheet" />
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-family: Helvetica, sans-serif;
+            color: white;
+        }
+
+        .imag {
+            background: url('assets/img/sp.jpg');
+            text-align: center;
+            padding: 80px 0;
+        }
+
+        .imag h1 {
+            font-size: 50px ;
+            font-weight: larger;
+            margin-bottom: 20px;
+            color: tomato;
+        }
+
+        .imag p {
+            margin-bottom: 20px;
+        }
+
+        .imag .bt a {
+            box-shadow: inset 0px 0px 0px 0px #cf866c;
+           /* background: linear-gradient(top bottom, #e4553 5%, #d83f2e 100%);*/
+            color: white;
+            background-color: tomato;
+            display: inline-block;
+            padding: 15px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            border: 2px solid rgb(255, 51, 0);
+            opacity: 1;
+            transition: 0.5s all;
+        }
+
+        .imag .bt a:hover {
+            opacity: 0.7;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><img src="assets/img/favicon.ico"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="trang-chu.html">Trang chủ<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item  active">
+              <a class="nav-link" href="#">Giới thiệu</a>
+            </li>
+            
+            
+          </ul>
+          <div class="thanh-tim-kiem">
+            <form class="form-inline my-2 my-lg-0 mr-2">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1"><i class="fa fa-search" aria-hidden="true" style="color: green;"></i></span>
+                    </div>
+                    <input type="search" class="form-control" placeholder="Tìm kiếm" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+            </form>
+          </div>
+         
+
+          
+        </div>
+      </nav>
+    <section class="imag">
+        <h1>Chào mừng đến với H-PHONE</h1>
+        <p style="color: black">Trang mua bán điện thoại trực tuyến hàng đầu tại Việt Nam</p>
+        <p class="bt"><a href="trang-chu.html">Đi đến trang chủ</a></p>
+        <h2>Trung tâm bảo hành</h2>
+        <br/>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.8414543437257!2d105.76842661426173!3d10.029938975271314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a0895a51d60719%3A0x9d76b0035f6d53d0!2zxJDhuqFpIGjhu41jIEPhuqduIFRoxqE!5e0!3m2!1svi!2s!4v1636215277217!5m2!1svi!2s" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+    <script src="vendor/jquery/jquery-3.6.0.min.js"></script>
+    <script src="vendor/bootstrap/bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,184 @@
+.khung-xam {
+    background-color: rgb(224, 227, 250);
+}
+
+div {
+    border: 0px solid red;
+}
+
+.khung-dat-hang {
+    background-color: white;
+    
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+}
+
+.khung-gt {
+    background-color: white;
+    
+    padding: 5px;
+}
+
+.khung-hinh-anh {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.hinh-slider {
+    height: 500px;
+}
+.khung-mo-ta{
+    background-color: white;
+    
+    border-radius: 5px;
+    height: 700px;
+    overflow: auto;
+    
+}
+.khung-mo-ta img{
+    width: 95%;
+}
+.khung-thong-so{
+    background-color: white;
+    
+}
+
+.thong-bao-mua-hang{
+    display: none;
+}
+.dongia{
+    color: red;
+    font-size: 30px;
+}
+.mmm{
+    width: 97%;
+    
+    position: absolute;
+    bottom: 5px;
+}
+#btnMua{
+    background-color: tomato;
+    border:2px solid red;
+    color: white;
+    border-radius: 5px;
+    font-size: 30px;
+    padding: 5px 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.khung-mo-ta, .khung-thong-so, .khung-dat-hang, .khung-hinh-anh{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media (min-width: 320px){
+    .hinh-slider{
+        height: 175px;
+    }
+    .khung-dat-hang{
+        height: 650px;
+    }
+}
+@media (min-width: 375px){
+    .hinh-slider{
+        height: 200px;
+    }
+    .khung-dat-hang{
+        height: 600px;
+    }
+}
+
+@media (min-width: 425px){
+    
+    .hinh-slider{
+        height: 350px;
+    }
+    .khung-dat-hang{
+        height: 600px;
+    }
+}
+
+@media (min-width: 768px) {
+    .khung-dat-hang{
+        height: 600px;
+    }
+    .hinh-slider {
+    height: 500px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .khung-hinh-anh {
+    height: 600px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    padding: 10px;
+}
+    .khung-dat-hang {
+    height: 600px;
+    background-color: white;
+    
+    border-radius: 5px;
+    padding: 10px;
+    }
+}
+
+
+@media (min-width: 2560px) {
+    .khung-dat-hang, .khung-hinh-anh{
+        height: 800px;
+    }
+    .hinh-slider {
+        height: 700px;
+        
+    }
+    
+}
+
+
+
+.luachon{
+    background-color: white;
+    border-radius: 20px;
+    width: 60px;
+    font-weight: 500;
+}
+.luachon:hover{
+   border-color: blue;
+   color: blue;
+}
+.lua{
+    display: none;
+}
+.khungchon{
+    border: 1px solid black;
+    width: 60px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.khungchon:hover{
+    border: 1px solid blue;
+}
+.khungchon:active{
+    border: 1px solid blue;
+}
+.khungchon2{
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+    border-radius: 20px;
+}
+#maudo, #g1{
+    color: blue;
+}
+#tensp{
+    color: red;
+    text-shadow: coral 3px 3px 5px;
+    text-align: center;
+}

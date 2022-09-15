@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .clear-fix{
+            clear: both;
+        }
+        #d1{
+            width: 1200px;
+            height: 50px;
+            float: left;
+        }
+        #d11{
+            width: 700px;
+            height: 50px;
+            background-color: orange;
+            float: left;
+        }
+        #d12{
+            width: 100px;
+            height: 50px;
+            background-color: rgb(253, 186, 61);
+            float: left;
+        }
+        #d13{
+            width: 100px;
+            height: 50px;
+            background-color: rgb(245, 191, 92);
+            float: left;
+        }
+        #d14{
+            width: 100px;
+            height: 50px;
+            background-color: rgb(245, 213, 153);
+            float: left;
+        }
+        #d15{
+            width: 100px;
+            height: 50px;
+            background-color: rgb(252, 220, 162);
+            float: left;
+        }
+        #d16{
+            width: 100px;
+            height: 50px;
+            background-color: rgb(253, 242, 221);
+            float: left;
+        }
+        #d2{
+            width: 1200px;
+            height: 150px;
+            float: left;
+        }
+        #d21{
+            width: 250px;
+            height: 150px;
+            background-color: orchid;
+            float:left;
+        }
+        #d22{
+            width: 450px;
+            height: 150px;
+            background-color: rgb(221, 143, 218);
+            float:left;
+        }
+        #d23{
+            width: 500px;
+            height: 150px;
+            background-color: rgb(221, 176, 220);
+            float:left;
+        }
+        #d3{
+            width: 1200px;
+            height: 50px;
+            float: left;
+        }
+        #d31{
+            width: 50px;
+            height: 50px;
+            background-color: green;
+            float: left;
+        }
+        #d32{
+            width: 100px;
+            height: 50px;
+            background-color: rgb(4, 155, 4);
+            float: left;
+        }
+        #d33{
+            width: 200px;
+            height: 50px;
+            background-color: rgb(45, 160, 45);
+            float: left;
+        }
+        #d34{
+            width: 200px;
+            height: 50px;
+            background-color: rgb(78, 199, 78);
+            float: left;
+        }
+        #d35{
+            width: 50px;
+            height: 50px;
+            background-color: rgb(104, 187, 104);
+            float: left;
+        }
+        #d36{
+            width: 400px;
+            height: 50px;
+            background-color: rgb(138, 207, 138);
+            float: left;
+        }
+        #d37{
+            width: 200px;
+            height: 50px;
+            background-color: rgb(192, 243, 192);
+            float: left;
+        }
+        #d4{
+            width: 1200px;
+            height: 500px;
+            background-color: rgb(165, 64, 233);
+            float: left;
+        }
+        #d5{
+            width: 1200px;
+            height: 200px;
+            float: left;
+        }
+        #d51{
+            width: 300px;
+            height: 200px;
+            background-color: pink;
+            float: left;
+        }
+        #d52{
+            width: 300px;
+            height: 200px;
+            background-color: rgb(250, 203, 211);
+            float: left;
+        }
+        #d53{
+            width: 300px;
+            height: 200px;
+            background-color: rgb(250, 214, 220);
+            float: left;
+        }
+        #d54{
+            width: 300px;
+            height: 200px;
+            background-color: rgb(250, 225, 229);
+            float: left;
+        }
+        #d6{
+            width: 1200px;
+            height: 50px;
+            float: left;
+        }
+        #d61{
+            width: 300px;
+            height: 50px;
+            background-color: rgb(121, 185, 121);
+            float:left;
+        }
+        #d62{
+            width: 600px;
+            height: 50px;
+            background-color: rgb(156, 197, 156);
+            float:left;
+        }
+        #d63{
+            width: 300px;
+            height: 50px;
+            background-color: rgb(167, 196, 167);
+            float:left;
+        }
+        #d7{
+            width: 1200px;
+            height: 2600px;
+            float:left;
+        }
+        #d7a{
+            width: 20px;
+            height: 2600px;
+            background-color: rgb(187, 180, 255);
+            float:left;
+        }
+        #d7b{
+            width: 280px;
+            height: 2600px;
+            float:left;
+        }
+        #d7b1{
+            width: 280px;
+            height: 320px;
+            background-color: rgb(3, 3, 247);
+            float:left;
+        }
+        #d7b2{
+            width: 280px;
+            height: 200px;
+            background-color: rgb(44, 44, 247);
+            float:left;
+        }
+        #d7b3{
+            width: 280px;
+            height: 350px;
+            background-color: rgb(73, 73, 247);
+            float:left;
+        }
+        #d7b4{
+            width: 280px;
+            height: 440px;
+            background-color: rgb(109, 109, 250);
+            float:left;
+        }
+        #d7b5{
+            width: 280px;
+            height: 650px;
+            background-color: rgb(149, 149, 252);
+            float:left;
+        }
+        #d7b6{
+            width: 280px;
+            height: 100px;
+            background-color: rgb(177, 177, 253);
+            float:left;
+        }
+        #d7b7{
+            width: 280px;
+            height: 540px;
+            background-color: rgb(250, 83, 53);
+            float:left;
+        }
+        #d7c{
+            width: 880px;
+            height: 2600px;
+            float:left;
+        }
+        #d7c1{
+            width: 880px;
+            height: 600px;
+            float:left;
+        }
+        #d7c11{
+            width: 220px;
+            height: 300px;
+            background-color: turquoise;
+            float: left;
+        }
+        #d7c12{
+            width: 220px;
+            height: 300px;
+            background-color: rgb(100, 230, 217);
+            float: left;
+        }
+        #d7c13{
+            width: 220px;
+            height: 300px;
+            background-color: rgb(135, 224, 215);
+            float: left;
+        }
+        #d7c14{
+            width: 220px;
+            height: 300px;
+            background-color: rgb(173, 228, 222);
+            float: left;
+        }
+        #d7c15{
+            width: 220px;
+            height: 300px;
+            background-color: rgb(224, 64, 189);
+            float: left;
+        }
+        #d7c16{
+            width: 220px;
+            height: 300px;
+            background-color: rgb(218, 97, 211);
+            float: left;
+        }
+        #d7c17{
+            width: 220px;
+            height: 300px;
+            background-color: rgb(228, 111, 218);
+            float: left;
+        }
+        #d7c18{
+            width: 220px;
+            height: 300px;
+            background-color: rgb(225, 151, 231);
+            float: left;
+        }
+        #d7c2{
+            width: 880px;
+            height: 250px;
+            background-color: rgb(196, 119, 4);
+            float:left;
+        }
+        #d7c3{
+            width: 880px;
+            height: 50px;
+            background-color: rgb(155, 127, 118);
+            float:left;
+        }
+        #d7c4{
+            width: 880px;
+            height: 400px;
+            float:left;
+        }
+        #d7c41{
+            width: 293px;
+            height: 200px;
+            background-color: palevioletred;
+            float:left;
+        }
+        #d7c42{
+            width: 294px;
+            height: 200px;
+            background-color: rgb(209, 125, 153);
+            float:left;
+        }
+        #d7c43{
+            width: 293px;
+            height: 200px;
+            background-color: rgb(219, 163, 182);
+            float:left;
+        }
+        #d7c44{
+            width: 293px;
+            height: 200px;
+            background-color: rgb(245, 133, 171);
+            float:left;
+        }
+        #d7c45{
+            width: 294px;
+            height: 200px;
+            background-color: rgb(241, 160, 187);
+            float:left;
+        }
+        #d7c46{
+            width: 293px;
+            height: 200px;
+            background-color: rgb(247, 177, 200);
+            float:left;
+        }
+        #d7c5{
+            width: 880px;
+            height: 600px;
+            float: left;
+        }
+        #d7c51{
+            width: 440px;
+            height: 600px;
+            background-color: rgb(255, 203, 151);
+            float: left;
+        }
+        #d7c52{
+            width: 440px;
+            height: 300px;
+            background-color: rgb(255, 229, 203);
+            float: left;
+        }
+        #d7c53{
+            width: 440px;
+            height: 300px;
+            background-color: rgb(253, 242, 230);
+            float: left;
+        }
+        #d7c6{
+            width: 880px;
+            height: 100px;
+            float: left;
+        }
+        #d7c61{
+            width: 440px;
+            height: 100px;
+            background-color: rgb(112, 112, 233);
+            float: left;
+        }
+        #d7c62{
+            width: 440px;
+            height: 100px;
+            background-color: rgb(125, 125, 214);
+            float: left;
+        }
+        #d7c7{
+            width: 880px;
+            height: 200px;
+            float: left;
+        }
+        #d7c71{
+            width: 440px;
+            height: 200px;
+            background-color: rgb(0, 156, 91);
+            float: left;
+        }
+        #d7c72{
+            width: 440px;
+            height: 200px;
+            background-color: rgb(73, 151, 119);
+            float: left;
+        }
+        #d7c8{
+            width: 880px;
+            height: 100px;
+            float: left;
+        }
+        #d7c81{
+            width: 440px;
+            height: 100px;
+            background-color: blueviolet;
+            float: left;
+        }
+        #d7c82{
+            width: 440px;
+            height: 100px;
+            background-color: rgb(171, 115, 223);
+            float: left;
+        }
+        #d7c9{
+            width: 880px;
+            height: 300px;
+            float: left;
+        }
+        #d7c91{
+            width: 220px;
+            height: 300px;
+            background-color: gray;
+            float: left;
+        }
+        #d7c92{
+            width: 220px;
+            height: 300px;
+            background-color: rgb(184, 182, 182);
+            float: left;
+        }
+        #d7c93{
+            width: 220px;
+            height: 300px;
+            background-color: rgb(224, 223, 223);
+            float: left;
+        }
+        #d7c94{
+            width: 220px;
+            height: 300px;
+            background-color: rgb(243, 243, 243);
+            float: left;
+        }
+        #d7d{
+            width: 20px;
+            height: 2600px;
+            background-color: rgb(213, 116, 252);
+            float:left;
+        }
+        #d8{
+            width: 1200px;
+            height: 200px;
+            float:left;
+        }
+        #d81{
+            width: 400px;
+            height: 200px;
+            background-color: cadetblue;
+            float:left;
+        }
+        #d82{
+            width: 400px;
+            height: 200px;
+            background-color: rgb(116, 193, 196);
+            float:left;
+        }
+        #d83{
+            width: 400px;
+            height: 200px;
+            background-color: rgb(137, 238, 241);
+            float:left;
+        }
+        #d9{
+            width: 1200px;
+            height: 200px;
+            float:left;
+        }
+        #d91{
+            width: 300px;
+            height: 200px;
+            background-color: darkblue;
+            float:left;
+        }
+        #d92{
+            width: 300px;
+            height: 200px;
+            background-color: rgb(26, 26, 139);
+            float:left;
+        }
+        #d93{
+            width: 300px;
+            height: 200px;
+            background-color: rgb(64, 64, 138);
+            float:left;
+        }
+        #d94{
+            width: 300px;
+            height: 200px;
+            background-color: rgb(84, 84, 138);
+            float:left;
+        }
+        #d10{
+            width: 1200px;
+            height: 300px;
+            float:left;
+        }
+        #d101{
+            width: 300px;
+            height: 300px;
+            background-color: darkorange;
+            float:left;
+        }
+        #d102{
+            width: 300px;
+            height: 300px;
+            background-color: rgb(253, 160, 46);
+            float:left;
+        }
+        #d103{
+            width: 300px;
+            height: 300px;
+            background-color: rgb(252, 186, 105);
+            float:left;
+        }
+        #d104{
+            width: 300px;
+            height: 300px;
+            background-color: rgb(255, 218, 173);
+            float:left;
+        }
+        #dd11{
+            width: 1200px;
+            height: 50px;
+            background-color: darkorchid;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">
+        <div id="d11"></div>
+        <div id="d12"></div>
+        <div id="d13"></div>
+        <div id="d14"></div>
+        <div id="d15"></div>
+        <div id="d16"></div>
+    </div>
+    <div class="clear-fix"></div>
+    <div id="d2">
+        <div id="d21"></div>
+        <div id="d22"></div>
+        <div id="d23"></div>
+    </div>
+    <div class="clear-fix"></div>
+    <div id="d3">
+        <div id="d31"></div>
+        <div id="d32"></div>
+        <div id="d33"></div>
+        <div id="d34"></div>
+        <div id="d35"></div>
+        <div id="d36"></div>
+        <div id="d37"></div>
+    </div>
+    <div class="clear-fix"></div>
+    <div id="d4">
+    </div>
+    <div class="clear-fix"></div>
+    <div id="d5">
+        <div id="d51"></div>
+        <div id="d52"></div>
+        <div id="d53"></div>
+        <div id="d54"></div>
+    </div>
+    <div class="clear-fix"></div>
+    <div id="d6">
+        <div id="d61"></div>
+        <div id="d62"></div>
+        <div id="d63"></div>
+    </div>
+    <div class="clear-fix"></div>
+    <div id="d7">
+        <div id="d7a"></div>
+        <div id="d7b">
+            <div id="d7b1"></div>
+            <div id="d7b2"></div>
+            <div id="d7b3"></div>
+            <div id="d7b4"></div>
+            <div id="d7b5"></div>
+            <div id="d7b6"></div>
+            <div id="d7b7"></div>
+            
+        </div>
+        <div id="d7c">
+            <div id="d7c1">
+                <div id="d7c11"></div>
+                <div id="d7c12"></div>
+                <div id="d7c13"></div>
+                <div id="d7c14"></div>
+                <div id="d7c15"></div>
+                <div id="d7c16"></div>
+                <div id="d7c17"></div>
+                <div id="d7c18"></div>
+            </div>
+            <div id="d7c2"></div>
+            <div id="d7c3"></div>
+            <div id="d7c4">
+                <div id="d7c41"></div>
+                <div id="d7c42"></div>
+                <div id="d7c43"></div>
+                <div id="d7c44"></div>
+                <div id="d7c45"></div>
+                <div id="d7c46"></div>
+            </div>
+            <div id="d7c5">
+                <div id="d7c51"></div>
+                <div id="d7c52"></div>
+                <div id="d7c53"></div>
+            </div>
+            <div id="d7c6">
+                <div id="d7c61"></div>
+                <div id="d7c62"></div>
+            </div>
+            <div id="d7c7">
+                <div id="d7c71"></div>
+                <div id="d7c72"></div>
+            </div>
+            <div id="d7c8">
+                <div id="d7c81"></div>
+                <div id="d7c82"></div>
+            </div>
+            <div id="d7c9">
+                <div id="d7c91"></div>
+                <div id="d7c92"></div>
+                <div id="d7c93"></div>
+                <div id="d7c94"></div>
+            </div>
+        </div>
+        <div id="d7d"></div>
+    </div>
+    <div class="clear-fix"></div>
+    <div id="d8">
+        <div id="d81"></div>
+        <div id="d82"></div>
+        <div id="d83"></div>
+    </div>
+    <div class="clear-fix"></div>
+    <div id="d9">
+        <div id="d91"></div>
+        <div id="d92"></div>
+        <div id="d93"></div>
+        <div id="d94"></div>
+    </div>
+    <div class="clear-fix"></div>
+    <div id="d10">
+        <div id="d101"></div>
+        <div id="d102"></div>
+        <div id="d103"></div>
+        <div id="d104"></div>
+    </div>
+    <div class="clear-fix"></div>
+    <div id="dd11"></div>
+</body>
+</html>
